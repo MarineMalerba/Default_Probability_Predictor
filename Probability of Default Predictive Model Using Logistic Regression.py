@@ -3,7 +3,7 @@ from sklearn.linear_model import LogisticRegression
 import pandas as pd
 
 # Load the data from the uploaded CSV file into a DataFrame
-file_path = '/Users/marinemalerba/Documents/CS/PYTHON/JPMorgan Chase & Co Quant Job Sim/Loan_Data.csv'
+file_path = #path to 'Loan_Data.csv'
 df = pd.read_csv(file_path)
 
 def predict_PD(credit_lines_outstanding, loan_amt_outstanding, total_debt_outstanding, income, years_employed, fico_score):
