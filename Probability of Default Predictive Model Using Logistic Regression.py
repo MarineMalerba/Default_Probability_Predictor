@@ -30,5 +30,6 @@ def predict_PD(credit_lines_outstanding, loan_amt_outstanding, total_debt_outsta
 
     return PD[0][1]
 
+# Example
 PD = predict_PD(4, 4224.542337, 7321.171391, 81534.51708, 5, 638)
 print(f"Predicted Probability of Default: {PD:.4f}")
